@@ -88,7 +88,6 @@
     background-position: center;
     background-image: url('../images/cover.jpg');
     min-width: 100%;
-    min-height: 757px;
 }
 
 .overlay {
@@ -354,7 +353,7 @@
 footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-top: 180px;
+    margin-top: 190px;
 }
 
 .footer_font {
@@ -374,7 +373,6 @@ footer {
     flex-direction: column;
     width: 250px;
     min-width: 250px;
-    height: 98px;
     gap: 6px;
     padding-left: 50px;
 }
@@ -400,9 +398,15 @@ footer {
     justify-content: space-around;
 }
 
+.footer__link_active{
+    text-decoration: none;
+}
+
 .footer__link{
     text-decoration: underline;
 }
+
+
 
 .footer_social__menu{
     padding-left: 50px;
